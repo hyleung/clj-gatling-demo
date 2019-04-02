@@ -5,7 +5,7 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [
                  [org.clojure/clojure "1.8.0"]
-                 [clj-gatling "0.10.2"]]
+                 [clj-gatling "0.13.0"]]
   :main ^:skip-aot clj-gatling-demo.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})
